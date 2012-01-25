@@ -1,0 +1,12 @@
+alias gad="git add"
+alias grm="git rm"
+alias gdi="git diff"
+alias gco="git checkout"
+alias gcl="git clone"
+alias gcp="git cp"
+alias gpl="git pull"
+alias gpu="git push"
+alias glo="git log"
+alias gst="git status"
+
+alias mix="cd ~/Development/mixamo/webapp"
