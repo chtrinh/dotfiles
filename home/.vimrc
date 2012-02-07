@@ -4,7 +4,7 @@ syntax on
 " Remove Vi compatibility
 set nocompatible
 
-"set t_Co=256
+set t_Co=256
 
 " Turn on line numbering
 set number
