@@ -11,3 +11,5 @@ alias gst="git status"
 alias gpl="git pull"
 alias gpu="git push"
 alias mix="cd ~/Development/mixamo/webapp/"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
