@@ -1,6 +1,6 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="robbyrussell"
-plugins=(git)
+ZSH_THEME="bira"
+plugins=(git ruby)
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
@@ -12,4 +12,6 @@ alias gpl="git pull"
 alias gpu="git push"
 alias mix="cd ~/Development/mixamo/webapp/"
 
+alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
+source $ZSH/oh-my-zsh.sh
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
