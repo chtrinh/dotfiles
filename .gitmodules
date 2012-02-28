@@ -1,0 +1,3 @@
+[submodule "nerdtree"]
+	path = nerdtree
+	url = ./home/.vim/bundle/nerdtree
