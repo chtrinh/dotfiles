@@ -3,6 +3,9 @@ ZSH_THEME="bira"
 plugins=(git ruby)
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
+if [ -f ~/.zsh_profile ]; then
+  . ~/.zsh_profile
+
 # aliases
 alias gad="git add"
 alias gst="git status"
