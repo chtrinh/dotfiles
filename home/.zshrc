@@ -5,6 +5,7 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/ga
 
 if [ -f ~/.zsh_profile ]; then
   . ~/.zsh_profile
+fi
 
 # aliases
 alias gad="git add"
