@@ -3,10 +3,6 @@ ZSH_THEME="bira"
 plugins=(git ruby)
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
-if [ -f ~/.zsh_profile ]; then
-  . ~/.zsh_profile
-fi
-
 # aliases
 alias gad="git add"
 alias gst="git status"
@@ -19,4 +15,9 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+if [ -f ~/.zsh_profile ]; then
+  . ~/.zsh_profile
+fi
+
+# Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin
