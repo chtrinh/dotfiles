@@ -8,7 +8,6 @@ alias gad="git add"
 alias gst="git status"
 alias gpl="git pull"
 alias gpu="git push"
-alias mix="cd ~/Development/mixamo/webapp/"
 
 alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 source $ZSH/oh-my-zsh.sh
@@ -17,6 +16,10 @@ unsetopt correct_all
 
 if [ -f ~/.zsh_profile ]; then
   . ~/.zsh_profile
+fi
+
+if [ -f ~/.aliases ]; then
+  . ~/.asliases
 fi
 
 # Speed up git completion
