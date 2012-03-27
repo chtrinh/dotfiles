@@ -19,7 +19,7 @@ if [ -f ~/.zsh_profile ]; then
 fi
 
 if [ -f ~/.aliases ]; then
-  . ~/.asliases
+  . ~/.aliases
 fi
 
 # Speed up git completion
