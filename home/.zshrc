@@ -19,5 +19,11 @@ if [ -f ~/.zsh_profile ]; then
   . ~/.zsh_profile
 fi
 
+# Speed up git completion
+# http://talkings.org/post/5236392664/zsh-and-slow-git-completion
+__git_files () {
+  _wanted files expl 'local files' _files
+}
+
 # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/.rvm/bin
