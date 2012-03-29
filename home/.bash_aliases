@@ -8,5 +8,3 @@ alias gpl="git pull"
 alias gpu="git push"
 alias glo="git log"
 alias gst="git status"
-
-alias mix="cd ~/Development/mixamo/webapp"
