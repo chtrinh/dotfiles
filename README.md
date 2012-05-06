@@ -1,6 +1,11 @@
-# dotfiles
-I haven't yet written a script to keep these files synced between my various systems, so I'm currently using [homesick](https://github.com/technicalpickles/homesick) for that purpose.
+## jnevelson's dotfiles
 
-They're still pretty basic currently as I'm still figuring out how best to customize and organize them (and I don't want to just copy someone else's file without understanding what it does).
+They're relatively basic currently as they are still a work in progress.
 
-They are free to use in whichever manner you wish.
+Feel free to use or borrow in whichever manner you wish.
+
+###Installation
+
+```
+git clone https://github.com/jnevelson/dotfiles && cd dotfiles && sh install.sh
+```
