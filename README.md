@@ -7,5 +7,5 @@ Feel free to use or borrow in whichever manner you wish.
 ###Installation
 
 ```
-git clone https://github.com/jnevelson/dotfiles && cd dotfiles && sh install.sh
+git clone https://github.com/jnevelson/dotfiles && cd dotfiles && ./install.sh
 ```
