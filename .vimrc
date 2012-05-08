@@ -23,6 +23,13 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set smarttab
+set hidden " hides buffers instead of closing them
+
+" don't need backup files
+set nobackup
+set noswapfile
+
+set pastetoggle=<F3>
 
 " List Long for tab completion
 set wildmenu
