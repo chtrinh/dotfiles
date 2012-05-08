@@ -24,6 +24,7 @@ set softtabstop=2
 set expandtab
 set smarttab
 set hidden " hides buffers instead of closing them
+set nowrap
 
 " don't need backup files
 set nobackup
