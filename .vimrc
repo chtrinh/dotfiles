@@ -1,30 +1,25 @@
 " Turn on syntax highlighting
 syntax on
 
-" Remove Vi compatibility
 set nocompatible
-
 set t_Co=256
-
-" Turn on line numbering
 set number
-" Highlight search patterns
-set hlsearch
-" Remember more history
 set history=1000
-" Mouse Select Mode
+set undolevels=1000
 set selectmode=mouse
-" Enable filetype-specific indenting on plugins
 filetype plugin indent on
-"
-" Tabbing and Spaces for coding
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
 set smarttab
+set autoindent
+set showmatch "matching parenthesis
+set ignorecase "ignore case on search
 set hidden " hides buffers instead of closing them
 set nowrap
+set incsearch "shows search results as you type
+set hlsearch
 
 " don't need backup files
 set nobackup
@@ -89,6 +84,8 @@ map <C-l> <C-W><Right>
 map <C-x><C-k> :enew<bar>bd #<CR>
 map <C-x><C-n> :NERDTree<CR>
 map <C-x><C-t> :NERDTreeToggle<CR>
+
+nnoremap ; :
 
 " Folding
 set nofoldenable
