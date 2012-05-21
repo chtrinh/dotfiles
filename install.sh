@@ -5,7 +5,8 @@ dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 for file in *
 do
-  if [[ $file != ".git" && $file != "README.md" && $file != "install.sh" && $file != ".gitmodules" ]]; then
+  # pretty lame... I need to work on my bash-fu
+  if [[ $file != ".git" && $file != "README.md" && $file != "install.sh" && $file != ".gitmodules" && $file != ".gitignore" ]]; then
     path=$dir/$file
     if [[ -d $path ]]; then
       if [[ ! -d ~/$file ]]; then
