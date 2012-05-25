@@ -1,6 +1,6 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="bira"
-plugins=(git ruby osx rvm rails rails3 bundler)
+plugins=(git ruby osx rvm rails rails3 bundler gem)
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
 # aliases
