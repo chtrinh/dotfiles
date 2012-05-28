@@ -12,8 +12,10 @@ if [ -e ~/.bash_aliases ]; then
 fi
 
 # Brew Bash Completion
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-	. `brew --prefix`/etc/bash_completion
+if [[ $uname == 'Darwin' ]]; then
+  if [ -f `brew --prefix`/etc/bash_completion ]; then
+	  . `brew --prefix`/etc/bash_completion
+  fi
 fi
 
 # Editors
@@ -49,4 +51,4 @@ export PATH=$LOCAL_BIN:$BREW_HOME:$RUBY_BIN:$GWT_HOME:$DEPOT_TOOLS:$PATH
 # This loads RVM into a shell session.
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  
 
-rvm use 1.9.2
+rvm use @global
