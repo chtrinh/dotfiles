@@ -49,6 +49,5 @@ export RUBY_BIN="/usr/local/Cellar/ruby/1.9.2-p0/bin"
 export PATH=$LOCAL_BIN:$BREW_HOME:$RUBY_BIN:$GWT_HOME:$DEPOT_TOOLS:$PATH
 
 # This loads RVM into a shell session.
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" && "rvm use @global"
 
-rvm use @global
