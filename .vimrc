@@ -1,4 +1,3 @@
-" Turn on syntax highlighting
 syntax on
 
 set nocompatible
@@ -16,10 +15,11 @@ set smarttab
 set autoindent
 set showmatch "matching parenthesis
 set ignorecase "ignore case on search
-set hidden " hides buffers instead of closing them
+set hidden "hides buffers instead of closing them
 set nowrap
 set incsearch "shows search results as you type
 set hlsearch
+set showcmd "show commands in bottom right corner
 
 " don't need backup files
 set nobackup
@@ -30,15 +30,22 @@ set pastetoggle=<F3>
 " List Long for tab completion
 set wildmenu
 set wildmode=list:longest,full
-"
-"" Mouse hotness in console
+
+" Folding
+set nofoldenable
+set foldmethod=syntax
+
+" Window Splitting
+set splitbelow
+
+" Mouse hotness in console
 if has("mouse")
   set mouse=a
 endif
-"
+
 " Omni Complete
 let g:rubycomplete_rails = 1
-"
+
 " Set the GUI Font
 if has("gui")
   set guifont=ProggySmall:h11
@@ -86,14 +93,6 @@ map <C-x><C-n> :NERDTree<CR>
 map <C-x><C-t> :NERDTreeToggle<CR>
 
 nnoremap ; :
-
-" Folding
-set nofoldenable
-set foldmethod=syntax
-"set foldmethod=indent
-
-" Window Splitting
-set splitbelow
 
 " Give a shortcut key to NERD Tree
 map <F2> :NERDTreeToggle<CR>
