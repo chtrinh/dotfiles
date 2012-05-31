@@ -29,3 +29,5 @@ __git_files () {
 
 # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/.rvm/bin
+
+rvm use @global
