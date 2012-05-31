@@ -93,6 +93,8 @@ map <C-x><C-k> :enew<bar>bd #<CR>
 map <C-x><C-n> :NERDTree<CR>
 map <C-x><C-t> :NERDTreeToggle<CR>
 
+map <F4> :CommandT<CR>
+
 nnoremap ; :
 
 " Give a shortcut key to NERD Tree
