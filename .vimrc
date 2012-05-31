@@ -6,7 +6,6 @@ set number
 set history=1000
 set undolevels=1000
 set selectmode=mouse
-filetype plugin indent on
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
@@ -37,6 +36,8 @@ set foldmethod=syntax
 
 " Window Splitting
 set splitbelow
+
+filetype plugin indent on
 
 " Mouse hotness in console
 if has("mouse")
