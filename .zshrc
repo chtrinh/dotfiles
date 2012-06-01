@@ -2,8 +2,6 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="bira"
 plugins=(git ruby osx rvm rails rails3 bundler gem)
 
-unsetopt correct_all
-
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # aliases
@@ -14,6 +12,8 @@ alias gpu="git push"
 
 alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 source $ZSH/oh-my-zsh.sh
+unsetopt correct_all # disable auto-correct
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 if [ -f ~/.zsh_profile ]; then
