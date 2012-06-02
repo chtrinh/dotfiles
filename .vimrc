@@ -24,8 +24,6 @@ set showcmd "show commands in bottom right corner
 set nobackup
 set noswapfile
 
-set pastetoggle=<F3>
-
 " List Long for tab completion
 set wildmenu
 set wildmode=list:longest,full
@@ -80,10 +78,10 @@ let g:NERDTreeWinPos = "left"
 let g:NERDTreeCaseSensitiveSort = 1
 let g:NERDTreeIgnore = ['\.vim$', '\-$','\.git']
 
-map <F4> :CommandT<CR>
+map <F2> :NERDTreeToggle<CR>
+map <F3> :CommandT<CR>
+set pastetoggle=<F4>
 
 nnoremap ; :
-
-map <F2> :NERDTreeToggle<CR>
 
 call pathogen#infect()
