@@ -69,11 +69,8 @@ if has ("cscope")
   cnoreabbrev css cs  show
   cnoreabbrev csh cs  help
 
-  "command -nargs=0 Cscope cs add $VIMSRC/src/cscope.out $VIMRC/src
 endif
-"           
-"Nerd Core
-"            
+
 let g:NERDCreateDefaultMappings = 0
 let g:NERDSpaceDelims = 1
 let g:NERDShutUp = 1
@@ -83,22 +80,10 @@ let g:NERDTreeWinPos = "left"
 let g:NERDTreeCaseSensitiveSort = 1
 let g:NERDTreeIgnore = ['\.vim$', '\-$','\.git']
 
-" Key Mappings
-map <C-j> <C-W><Down>
-map <C-k> <C-W><Up>
-map <C-h> <C-W><Left>
-map <C-l> <C-W><Right>
-
-map <C-x><C-k> :enew<bar>bd #<CR>
-map <C-x><C-n> :NERDTree<CR>
-map <C-x><C-t> :NERDTreeToggle<CR>
-
 map <F4> :CommandT<CR>
 
 nnoremap ; :
 
-" Give a shortcut key to NERD Tree
 map <F2> :NERDTreeToggle<CR>
 
-" Pathogen
 call pathogen#infect()
