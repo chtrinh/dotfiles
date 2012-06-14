@@ -14,11 +14,13 @@ set smarttab
 set autoindent
 set showmatch "matching parenthesis
 set ignorecase "ignore case on search
+set smartcase
 set hidden "hides buffers instead of closing them
 set nowrap
 set incsearch "shows search results as you type
 set hlsearch
 set showcmd "show commands in bottom right corner
+set encoding=utf-8
 
 " don't need backup files
 set nobackup
@@ -37,21 +39,12 @@ set splitbelow
 
 filetype plugin indent on
 
-" Mouse hotness in console
-if has("mouse")
-  set mouse=a
-endif
+set mouse=a
 
 " Omni Complete
 let g:rubycomplete_rails = 1
 
-" Set the GUI Font
-if has("gui")
-  set guifont=ProggySmall:h11
-  colorscheme vividchalk
-else
-  colorscheme vividchalk
-endif
+colorscheme vividchalk
 
 " Cscope settings
 if has ("cscope")
