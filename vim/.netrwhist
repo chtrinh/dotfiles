@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/jonathan/.rvm/gems/ruby-1.9.2-p290@mixamo-trunk/gems/activesupport-2.3.10'
-let g:netrw_dirhist_2='/Users/jonathan/.rvm/gems/ruby-1.9.2-p290@mixamo-trunk/gems'
-let g:netrw_dirhist_3='/Users/jonathan/.rvm/gems/ruby-1.9.2-p290@mixamo-trunk/gems/activesupport-2.3.10/lib'
-let g:netrw_dirhist_4='/Users/jonathan/Development/mixamo/webapp/app/models/payment'
-let g:netrw_dirhist_5='/Users/jonathan/Development/mixamo/chef-repo'
-let g:netrw_dirhist_6='/Users/jonathan/Development/personal/i18n'
