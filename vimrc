@@ -79,3 +79,4 @@ set pastetoggle=<F4>
 nnoremap ; :
 
 call pathogen#infect()
+call pathogen#helptags()
