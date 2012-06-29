@@ -72,9 +72,12 @@ let g:NERDTreeCaseSensitiveSort = 1
 let g:NERDTreeIgnore = ['\.vim$', '\-$','\.git']
 
 map <F2> :NERDTreeToggle<CR>
-map <F3> :CommandT<CR>
-map <F4> :Ack<space>
+map <F3> :Ack<space>
 set pastetoggle=<F4>
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 2
 
 nnoremap ; :
 
