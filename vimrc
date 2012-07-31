@@ -39,6 +39,8 @@ set splitbelow
 
 filetype plugin indent on
 
+filetype on
+
 set mouse=a
 
 " Omni Complete
@@ -74,10 +76,12 @@ let g:NERDTreeIgnore = ['\.vim$', '\-$','\.git']
 map <F2> :NERDTreeToggle<CR>
 map <F3> :Ack<space>
 set pastetoggle=<F4>
+nnoremap <silent> <F5> :TlistToggle<CR>
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 2
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 nnoremap ; :
 
